@@ -1,0 +1,87 @@
+
+  body{
+    background: #E3E6DB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  }
+
+  .header{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .header-cab{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 800px;
+    margin: 0 auto ;
+  }
+
+  .header-cab a{
+    font-weight: bold;
+  }
+
+  .header-cab h1{
+    margin: 0 auto;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    max-width: 800px;   
+    margin: 0 auto 
+  }
+
+  
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    max-height: auto;
+    background: #f4f4f4;
+    margin: 0 15px 15px 0;
+    padding: 0;
+    border: #555555 1px solid;
+  }
+
+  
+  .card-img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 390px;
+  }
+   
+  .card-det-perfil{
+    padding: 10px;
+    width: 80%;
+  }
+  .card-det-desc{
+    padding: 30px;
+    width: 80%;
+  }
+
+  @media (min-width: 768px) {
+  
+    .card-det{
+      width: 40%;
+    }
+    .card-img{
+      width: 60%;
+    }
+  } 
+
+  .card-img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-det-perfil img{
+    max-height: 50px;    
+    float: left;
+    margin: 0 5px 0 0;
+    border-radius: 100%;
+  }
